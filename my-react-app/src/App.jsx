@@ -1,8 +1,11 @@
 import React from 'react'
-
+import './index.css';
+import Changecolor from './components/ChangeColor/Changecolor';
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Changecolor/>
+    </div>
   )
 }
 
